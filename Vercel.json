@@ -19,6 +19,9 @@
         "src": "/(.*)",
         "dest": "frontend/build/index.html"
       }
-    ]
+    ],
+    "env": {
+      "CI": "true"
+    }
   }
   
