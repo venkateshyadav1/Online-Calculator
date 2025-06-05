@@ -18,7 +18,7 @@ function App() {
 
   const calculateResult = async () => {
     try {
-      const response = await fetch('https://online-calculator.onrender.com/calculate', {
+      const response = await fetch('https://online-calculator-u10q.onrender.com/calculate', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
